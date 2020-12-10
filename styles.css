@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+:root {
+    --primary: #64748B;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Kalam', 'cursive';
+    color: white;
+    /* background-image: url("images/queen.jpg");
+    background-repeat: no-repeat; */
+    /* height: 100%;
+    width: 100%; */
+    /* overflow: scroll; */
+    /* padding-bottom: 12rem; */
+    height: 100%;   
+}
+
+
+.navbar {
+    font-size: 2rem;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    background-color: var(--primary);
+    /* margin: 0px; */
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+    position: relative;
+    padding-bottom: 10rem ;
+}
+
+/* .txt-input {
+    padding-top: 3rem;
+    margin-top: 2rem;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 20vh;
+    font-size: large;
+    font-family: inherit;
+    border: 1px solid var(--black);
+    overflow-y: auto;
+
+} */
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: large;
+    padding: 1rem;
+
+}
+
+img {
+    display: block;
+    padding-top: 1rem;
+}
+
+button {
+    background-color: var(--primary);
+    /* border-color: var(--primary); */
+    font-size: large;
+    padding: 1rem;
+    font-family: inherit;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: large;
+    color: inherit;
+}
+
+.inverted-color {
+    color: var(--black);
+}
+
+
+.output {
+    /* box-sizing: border-box;
+    display: block; */
+    width: 100%;
+    padding: 1rem;
+    font-size: large;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    color: var(--black);
+}
+.clear { clear: both; height: 60px; }
+
+footer {
+    text-align: center;
+    display: block;
+    background-color: var(--primary);
+    padding: 1rem;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: max-content;
+    /* height: 10px; */
+    /* display: block; */
+}
+footer div {
+    font-size: x-large;
+    display: block;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
